@@ -55,5 +55,12 @@ MyBiz has the following features out of the box
 ## Release
 The MyBiz system is slated to be released in the second quarter of 2023, and full source will be available along with current documentation.  It is expected to be open to people to join and commit sometime in late 2023 or early 2024.
 
+## Timeline
+Dates subject to life events
+# 2023 Q2 Initial Source Release
+# 2023 Q3 Wiki setup
+# 2023 Q4 Complete the basic system
+# 2024 Q1 Open repository up to other developers
+
 Jon Walker
-jlwalker.dev at gmail.com
+Questions may be directed to jlwalker.dev at gmail.com
