@@ -1,6 +1,6 @@
 # MyBiz
-Visual FoxPro 9 Small Business System supporting VFP, SQL Server, MySQL and eventually PostGreSQL
----------------------------------------------
+A Visual FoxPro 9 Small Business System supporting VFP, SQL Server, MySQL and eventually PostGreSQL backends
+
 ## 2023/01/23
 Back in the 1980's, I created a package that I named Simply Retail which was a basic Inventory, Point of Sale, and Reporting system that I gave away to people who bought a computer from my store.  It was written in FoxPro DOS 2.6 and was used by several small businesses.  Eventually, a new job and moving to another state caused me to quit developing it and eventually support, letting it wither away.  However, I always considered that a worthy project that gave me real life experience writing business software.
 
