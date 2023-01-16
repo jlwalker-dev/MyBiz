@@ -57,10 +57,10 @@ The MyBiz system is slated to be released in the second quarter of 2023, and ful
 
 ## Timeline
 Dates subject to life events
-# 2023 Q2 Initial Source Release
-# 2023 Q3 Wiki setup
-# 2023 Q4 Complete the basic system
-# 2024 Q1 Open repository up to other developers
+* 2023 Q2 Initial Source Release
+* 2023 Q3 Wiki setup
+* 2023 Q4 Complete the basic system
+* 2024 Q1 Open repository up to other developers
 
 Jon Walker
 Questions may be directed to jlwalker.dev at gmail.com
