@@ -6,7 +6,7 @@ I will begin releasing the source code this month after I get a few more pages o
 
 I have been spending the last two months coming up with  and discarding ideas for a setup and update system that uses password protected zips so that customers can have some assurance that the update is the genuine article.  I've come up with a process that I like, but I'm shelving it, for now, to get back to the cosmetic and speed issues in the system in upcoming months.
 
-In my opinion the system has several hundred development hours away from being minimally customer ready, but I expect make that happen before the end of the year (work is taking up a bit more time than expected and I need to get more documentation written, which will add a lot of hours).
+In my opinion the system is many hundreds of development hours away from being minimally customer ready, but I expect make that happen before the end of the year (work is taking up a bit more time than expected and I need to get more documentation written, which will add a lot of hours).
 
 I'm very happy with the SQL library and as long as your script doesn't use some advanced features (like derived joins), then you can write VFP select statements and the script will be modified for SQL Server or MySQL as needed.  There will be a whole section dedicated to explaining what you can and can't do with the VFP scripts and what you need to do if you want to use those advanced features.  Hoever, over 95% of the SQL statements in the MyBiz system will in VFP, SQL Server, and MySQL without alteration.
 
