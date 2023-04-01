@@ -1,16 +1,16 @@
 # MyBiz
-A Visual FoxPro 9 Small Business System supporting multiple languages.  Data engine support for VFP, SQL Server, MySQL and eventually PostGreSQL.
+A Visual FoxPro 9 Small Business System with a multilingual GUI.  Data engine support for VFP, SQL Server, MySQL and eventually PostGreSQL.
 
 ## 2023/03/01 - Update
-I will begin releasing the source code this month after I get a few more pages of documentation written.  I've discovered numerous cosmetic issues in the system and the point of sale register is nowhere near as fast or as well developed as I'd like.  One or two modules won't open, but I haven't gotten to them yet and I know it's minor errors preventing them from running.
+I will begin releasing the source code this month after I get a few more pages of documentation written.  I've discovered numerous cosmetic issues in the system and the point-of-sale register is nowhere near as fast or as well developed as I'd like.  One or two modules won't open, but I haven't gotten to them yet and I know it's minor errors preventing them from running.
 
-I have been spending the last two months coming up with  and discarding ideas for a setup and update system that uses password protected zips so that customers can have some assurance that the update is the genuine article.  I've come up with a process that I like, but I'm shelving it, for now, to get back to the cosmetic and speed issues in the system in upcoming months.
+I have been spending the last two months coming up with and discarding ideas for a setup and update system that uses password protected zips so that customers can have some assurance that the update is the genuine article.  I've come up with a process that I like, but I'm shelving it, for now, to get back to the cosmetic and speed issues in the system in upcoming months.
 
 In my opinion the system is many hundreds of development hours away from being minimally customer ready, but I expect make that happen before the end of the year (work is taking up a bit more time than expected and I need to get more documentation written, which will add a lot of hours).
 
-I'm very happy with the SQL library and as long as your script doesn't use some advanced features (like derived joins), then you can write VFP select statements and the script will be modified for SQL Server or MySQL as needed.  There will be a whole section dedicated to explaining what you can and can't do with the VFP scripts and what you need to do if you want to use those advanced features.  Hoever, over 95% of the SQL statements in the MyBiz system will in VFP, SQL Server, and MySQL without alteration.
+I'm very happy with the SQL library and as long as your script doesn't use some advanced features (like derived joins), then you can write VFP select statements and the script will be modified for SQL Server or MySQL as needed.  There will be a whole section dedicated to explaining what you can and can't do with the VFP scripts and what you need to do if you want to use those advanced features.  However, over 95% of the SQL statements in the MyBiz system will in VFP, SQL Server, and MySQL without alteration.
 
-**One final note:**  I found an easy to use form resize code which was freely released and works well.  While it will be in the initial upload, most forms will have a property set to prevent resizing because there are minor changes needed to make a form resize correcly.
+**One final note:**  I found an easy to use form resize code which was freely released and works well.  While it will be in the initial upload, most forms will have a property set to prevent resizing because there are minor changes needed to make a form resize correctly.
 
 Jon Walker
 
@@ -19,11 +19,11 @@ Jon Walker
 ## 2023/01/23 - Introduction
 Back in the 1980's, I created a package that I named Simply Retail which was a basic Inventory, Point of Sale, and Reporting system that I gave away to people who bought a computer from my store.  It was written in FoxPro DOS 2.6 and was used by several small businesses.  Eventually, a new job and moving to another state caused me to quit developing it and eventually support, letting it wither away.  However, I always considered that a worthy project that gave me real life experience writing business software.
 
-Around the time FoxPro 2.6 for Windows came out, I started to consider the idea that I should resurrect and rewrite it, but work, family, and life in general kept me from making it a priority.  Now, years after Microsoft dropped VFP as a product (may they rot), I am still gainfully employeed as a VFP developer, but finally found the time to make it a priority to work on ideas that have been in the back of my mind, literally, for decades.
+Around the time FoxPro 2.6 for Windows came out, I started to consider the idea that I should resurrect and rewrite it, but work, family, and life in general kept me from making it a priority.  Now, years after Microsoft dropped VFP as a product (may they rot), I am still gainfully employed as a VFP developer, but finally found the time to make it a priority to work on ideas that have been in the back of my mind, literally, for decades.
 
 MyBiz is intended to be a powerful small business package that will first be written in VFP with the intent of creating something that can eventually be moved over to a new language.  Perhaps to Alaska Software's VFP successor, or to a language that runs in many operating systems, such as C++, Java, or Kotlin.
 
-The MyBiz system is designed to be very class oriented and understood by anyone with a modicom of VFP experience.  There are several oriented for the project, and a copule that are capable of being used in any VFP project.  Once such example is the SQL class which allows you to write VFP syntax that can be used to access data from SQL Server, MySQL, and eventually PostgreSQL with very little effort.  If you write fairly generic VFP SQL statements, there is virtually no need to worry about translating.  If you do need something language specific or a concept not supported easily by VFP, supporting syntax for one or more SQL engines is a straight forward process.
+The MyBiz system is designed to be very class oriented and understood by anyone with a modicum of VFP experience.  There are several oriented for the project, and a most capable of being used in any VFP project.  Once such example is the SQL class which allows you to write VFP syntax that can be used to access data from SQL Server, MySQL, and eventually PostgreSQL with very little effort.  If you write fairly generic VFP SQL statements, there is virtually no need to worry about translating.  If you do need something language specific or a concept not supported easily by VFP, supporting syntax for one or more SQL engines is a straight-forward process.
 
 MyBiz is designed to be easily understood VFP code with no licensing requirements.  It uses some external libraries and utility programs available from GitHub or otherwise freely available on the web.  The idea is to have a system that can be developed and used by anyone with some real-world Visual FoxPro development experience, or as a project to learn VFP development.  There are extensive English language comments in the system and an intent to not use "clever" code.  However, when you create sophisticated classes, some "cleverness" is essential, but every effort is made to make easily read by anyone with junior developer competence.
 
@@ -34,7 +34,7 @@ MyBiz has the following features out of the box
 * Company, customer, employee, vendor, manufacture support
 * Picture support for people and items
 * Item catalog, item images, multi building, room, and slot based inventory tracking (lot tracking will be a future upgrade)
-* Point of Sale system for different departments or businesses (eg Grocery, Bakery, Deli, Coffee bar, resturant, hardware)
+* Point of Sale system for different departments or businesses (eg Grocery, Bakery, Deli, Coffee bar, restaurant, hardware)
 * Full reporting system with graphics, logos, and barcodes printed to paper or PDF
 * Support for most printers that use the Windows printing system
 * 1D and 2D barcode printing
@@ -62,7 +62,7 @@ MyBiz has the following features out of the box
 * Data auditing
 
 ## Notes
-* While the system will likely work on versions of some SQL Engines as old as SQL Server 2000, official support starts at SQL Server 2012, MySQL Version 8, VFP 9, and eventually PostGre SQL 14
+* While the system will likely work on versions of some SQL Engines as old as SQL Server 2000, official support starts at SQL Server 2012, MySQL Version 8, VFP 9, and eventually PostGreSQL 14
 * There is no expectation to directly support SQL Express or earlier versions of the above listed engines, though many should work without code changes
 * As of January 2023, PostGreSQL support is in the planning stages
 * Testing of SQL engines is done with separate Windows servers with some MySQL testing on an Ubuntu Linux server
@@ -70,7 +70,7 @@ MyBiz has the following features out of the box
 * Stored procedures, if used, are all language specific and support is currently under development to streamline installing for each SQL engine
 
 ## Release
-The MyBiz system is slated to be released in the second quarter of 2023 as version 1.  Full source will be available along with current documentation.  It is expected to be open to allow developers to commit when version 2 is released (sometime in 2024).  Until then, the the entire repository will be available for download.
+The MyBiz system is slated to be released in the second quarter of 2023 as version 1.  Full source will be available along with current documentation.  It is expected to be open to allow developers to commit when version 2 is released (sometime in 2024).  Until then, the entire repository will be available for download.
 
 ## Timeline
 Dates subject to life events
