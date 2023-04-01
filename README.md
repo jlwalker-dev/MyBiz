@@ -8,7 +8,7 @@ I have been spending the last two months coming up with and discarding ideas for
 
 In my opinion the system is many hundreds of development hours away from being minimally customer ready, but I expect make that happen before the end of the year (work is taking up a bit more time than expected and I need to get more documentation written, which will add a lot of hours).
 
-I'm very happy with the SQL library and as long as your script doesn't use some advanced features (like derived joins), then you can write VFP select statements and the script will be modified for SQL Server or MySQL as needed.  There will be a whole section dedicated to explaining what you can and can't do with the VFP scripts and what you need to do if you want to use those advanced features.  However, over 95% of the SQL statements in the MyBiz system will in VFP, SQL Server, and MySQL without alteration.
+I'm very happy with the SQL library and as long as your script doesn't use some advanced features (like derived joins), then you can write VFP select statements and the script will be modified for SQL Server or MySQL as needed.  There will be a whole section dedicated to explaining what you can and can't do with the VFP scripts and what you need to do if you want to use those advanced features.  However, over 95% of the SQL statements in the MyBiz system will work in VFP, SQL Server, and MySQL engines without alteration.
 
 **One final note:**  I found an easy to use form resize code which was freely released and works well.  While it will be in the initial upload, most forms will have a property set to prevent resizing because there are minor changes needed to make a form resize correctly.
 
