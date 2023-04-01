@@ -74,5 +74,4 @@ Dates subject to life events
 * 2023 Q4 Complete the basic system
 * 2024 Q1 Complete setup/update modules with version 2.0 and open repository up to other developers
 
-Jon Walker
-Questions may be directed to **jlwalker.dev at gmail.com**
+Jon Walker - **jlwalker.dev at gmail.com**
