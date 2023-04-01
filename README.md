@@ -1,7 +1,7 @@
 # MyBiz
 A Visual FoxPro 9 Small Business System supporting VFP, SQL Server, MySQL and eventually PostGreSQL backends
 
-## 2023/01/23 - Update
+## 2023/03/01 - Update
 I will begin releasing the source code this month after I get a few more pages of documentation written.  I've discovered numerous cosmetic issues in the system and the point of sale register is nowhere near as fast or as well developed as I'd like.  One or two modules won't open, but I haven't gotten to them yet and I know it's minor errors preventing them from running.
 
 I have been spending the last two months coming up with  and discarding ideas for a setup and update system that uses password protected zips so that customers can have some assurance that the update is the genuine article.  I've come up with a process that I like, but I'm shelving it, for now, to get back to the cosmetic and speed issues in the system in upcoming months.
